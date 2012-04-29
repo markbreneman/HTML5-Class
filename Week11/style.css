@@ -1,0 +1,85 @@
+#container{
+width:960px;
+margin: 0px auto;
+}
+
+
+#imagery{
+margin: 0 auto;
+width:830px;
+}
+
+/* DropZone 1 */
+
+#zone1{
+float:left;
+margin-right: 30px;
+
+}
+
+#drop_zone1 {
+    width: 400px;
+    height: 400px;
+    background-color: gray;
+    opacity: .5;
+    line-height: 400px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#drop_zone1.over {
+    opacity: 1;
+}
+
+#droptext1{
+position:relative;
+margin-top: -400px;
+z-index:1;
+font-size: 14px;
+}
+
+#drop_zone1 img{
+width:400px;
+height: 400px;
+
+}
+
+
+/* DropZone 2 */
+
+#zone2{
+float:left;
+}
+
+#drop_zone2 {
+    width: 400px;
+    height: 400px;
+    background-color: gray;
+    opacity: .5;
+    line-height: 400px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#drop_zone2.over {
+    opacity: 1;
+}
+
+#droptext2{
+position:relative;
+margin-top: -400px;
+z-index:1;
+font-size: 14px;
+}
+
+#drop_zone2 img{
+width:400px;
+height: 400px;
+
+}
+
+
+#thinkingtext{
+width:860px;
+
+}

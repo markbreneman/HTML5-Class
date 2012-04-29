@@ -1,0 +1,194 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background-image: url(WheelofFortuneBackground.jpg);
+background-repeat: no-repeat;
+}
+
+
+#self-{
+position:absolute;
+left:319px;
+top:260px;
+}
+    .block {
+		width: 70px;
+		height: 102px;
+		float:left;
+		margin: 0 4px;
+		-webkit-perspective: 500px;
+		-moz-perspective: 500px;
+		-ms-perspective: 500px;
+		-o-perspective: 500px;
+		perspective: 500px;
+		/* 		border: 1px solid #CCC; */
+    }
+    
+    .letter {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		-webkit-transition: -webkit-transform 1s;
+		-moz-transition: -moz-transform 1s;
+		-ms-transition: -ms-transform 1s;
+		-o-transition: -o-transform 1s;
+		transition: transform 1s;
+		-webkit-transform-style: preserve-3d;
+		transform-style: preserve-3d;
+		
+		-webkit-animation-name: fade-in;
+		-webkit-animation-duration: .25s;
+		-webkit-animation-iteration-count: 1;
+		-webkit-animation-timing-function: linear;
+		-webkit-transform: translateZ( -35px )
+
+	}
+    
+    .letter:hover {
+		-webkit-transform: rotateY( -180deg );
+		transform: rotateY( -180deg );
+    }
+    
+    .letterreveal{
+	    -webkit-transform: rotateY( -180deg );
+		transform: rotateY( -180deg );
+    }
+    
+   figure {
+		margin: 0px;
+		display: block;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		text-align: center;
+		line-height: 102px;
+		font-family: HelveticaNeueLTStd77BdCn;
+		
+    }
+    
+    
+    .letter .front {
+		-webkit-transform: rotateY( 0deg ) translateZ( 35px );
+		transform: rotateY( 0deg ) translateZ( 100px );
+    }
+    .letter .back {
+		-webkit-transform: rotateY( 180deg ) translateZ( 35px );
+		transform: rotateY( 180deg ) translateZ( 35px );
+    }
+ 
+    .letter .right {
+		-webkit-transform: rotateY( 90deg ) translateZ( 35px );
+		transform: rotateY( 90deg ) translateZ( 35px );
+    }
+    .letter .left {
+		-webkit-transform: rotateY( -90deg ) translateZ( 35px );
+		transform: rotateY( -90deg ) translateZ( 35px );
+    }
+    .letter .top {
+		-webkit-transform: rotateX( 90deg ) translateZ( 51px );
+		transform: rotateX( 90deg ) translateZ( 51px );
+    }
+    .letter .bottom {
+		-webkit-transform: rotateX( -90deg ) translateZ( 51px );
+		transform: rotateX( -90deg ) translateZ( 51px );
+    }
+
+
+
+#potato{
+position:absolute;
+left:319px;
+top:371px;
+}
+
+
+#contestant{
+position:absolute;
+height:198px;
+width:216px;
+
+left:960px;
+top:260px;
+
+}
+
+#solvebutton{
+position:absolute;
+left:1024px;
+top:500px;
+
+}
+
+#spin{
+position:absolute;
+left:957px;
+top:500px;
+
+}
+
+#Fail{
+background-image: url(Contestant-Fail.jpg);
+background-repeat: no-repeat;
+}
+
+
+#Guess{
+background-image:url(Contestant-Guess.jpg);
+background-repeat: no-repeat;
+}
+
+#theWheel{
+position:absolute;
+left:300px;
+top:469px;
+height:250px; 
+overflow: hidden; 
+
+}
+
+#letter_picker_form{
+position:absolute;
+left:960px;
+top:470px;
+
+}
+
+
+@-webkit-keyframes fade-in {
+    90% {opacity:.1}
+    
+    95% {opacity:.9}
+}
+
+.back{
+background-image: url(LetterBlank.png);
+background-repeat: no-repeat;
+font-family: HelveticaNeueLTStd77BdCn;
+font-size: 65pt;
+}
+
+
+/* Fonts */
+@font-face {
+    font-family: 'HelveticaNeueLTStd77BdCn';
+    src: url('Fonts/helveticaneueltstd-bdcn-webfont.eot');
+    src: url('Fonts/helveticaneueltstd-bdcn-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/helveticaneueltstd-bdcn-webfont.woff') format('woff'),
+         url('Fonts/helveticaneueltstd-bdcn-webfont.ttf') format('truetype'),
+         url('Fonts/helveticaneueltstd-bdcn-webfont.svg#HelveticaNeueLTStd77BdCn') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+#drag_me {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+#drop_zone {
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    opacity: .5;
+    line-height: 400px;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 100px;
+    left: 300px;   
+}
+#drop_zone.over {
+    opacity: 1;
+}

@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>theviewoutsidethewindow - submit</title>
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8" />
+    </head>
+    <body>
+    <div id=container>
+        <form method="post" action="uploader.php" id="the_form">
+		<div id="imagery">
+	        <div id="zone1">
+	        <div id="drop_zone1">
+	          <img id="the_image1"/>
+	          <div id="droptext1"> Drag and Drop an Image or Choose a File Below</div>
+	        </div>
+	        <input type="file" name="pic" id="file_chooser"/>
+  	        <div id="show_progress1"></div>
+			</div>	
+			
+			<div id="zone2">
+	        <div id="drop_zone2">
+	          <img id="the_image2"/>
+	          <div id="droptext2"> Drag and Drop an Image or Choose a File Below</div>
+	        </div>
+	        <input type="file" name="pic" id="file_chooser2"/>
+  	        <div id="show_progress2"></div>
+			</div>
+		</div>
+		
+		<textarea id="thinkingtext" rows="5" wrap="physical" name="comments">
+What are you thinking about now?
+</textarea>
+		
+			<input type="submit" />  			
+        </form>
+     </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

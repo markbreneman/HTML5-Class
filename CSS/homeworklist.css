@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+html{
+background-color: rgb(32,32,32);
+}
+
+
+#container { 
+/* width: 950px;  */
+margin: 0 auto; 
+}
+
+#col-image{
+padding-top:10px;
+}
+
+a:link {
+	color: rgb(32,32,32);
+	text-decoration: none;
+}
+a:visited {
+	color:rgb(169,169,169)}
+	
+/*
+a:hover {
+	color: blue;
+}
+*/
+a:active {
+	color: #A00000;
+}
+
+.info-col { 
+width: 600px; 
+margin: 0 auto;
+-moz-box-shadow: 0 0 40px rgba(0,0,0,0.6); 
+-webkit-box-shadow: 0 0 40px rgba(0,0,0,0.6); 
+background-color:#eee;
+}
+
+
+.image { 
+width: 500px; 
+height: 500px; 
+display: block; 
+margin: 30px auto; 
+padding-top: 20px;
+}
+
+dl{
+margin-bottom: 20px;
+font-family: "franklin-gothic-ext-comp-urw",sans-serif;
+font-style: normal;
+font-weight: 400;
+/* font-size: 14pt; */
+}
+
+dt { 
+padding: 5px; 
+/* background: #900;  */
+color: white; 
+border-bottom: 1px solid white; 
+font-family: "franklin-gothic-ext-comp-urw",sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16pt;
+}
+
+dd { 
+position: absolute; 
+left: -9999px; 
+top: -9999px; 
+/* background: #900;  */
+padding: 10px; 
+color: white; 
+font-size: 14pt;
+}
+
+dt:nth-of-type(1) { background: #b44835; }
+dd:nth-of-type(1) { background: #b44835; }
+
+dt:nth-of-type(2) { background: #ff7d3e; }
+dd:nth-of-type(2) { background: #ff7d3e; }
+
+dt:nth-of-type(3) { background: #ffb03b; }
+dd:nth-of-type(3) { background: #ffb03b; }
+
+dt:nth-of-type(4) { background: #c2a25c; }
+dd:nth-of-type(4) { background: #c2a25c; }
+
+dt:nth-of-type(5) { background: #4c443c; }
+dd:nth-of-type(5) { background: #4c443c; }
+
+dt:nth-of-type(6) { background: #656b60; }
+dd:nth-of-type(6) { background: #656b60; }
+
+dt:nth-of-type(6) { background: #656b60; }
+dd:nth-of-type(6) { background: #656b60; }
+
+dt:nth-of-type(7) { background: #656b60; }
+dd:nth-of-type(7) { background: #656b60; }
+
+dt:nth-of-type(8) { background: #656b60; }
+dd:nth-of-type(8) { background: #656b60; }
+
+dt:nth-of-type(9) { background: #656b60; }
+dd:nth-of-type(9) { background: #656b60; }
+
+dt:nth-of-type(10) { background: #656b60; }
+dd:nth-of-type(10) { background: #656b60; }
+
+dt:nth-of-type(11) { background: #656b60; }
+dd:nth-of-type(11) { background: #656b60; }
+
+dt:nth-of-type(12) { background: #656b60; }
+dd:nth-of-type(12) { background: #656b60; }
+
+dt:nth-of-type(13) { background: #656b60; }
+dd:nth-of-type(13) { background: #656b60; }
+
+dt:nth-of-type(14) { background: #656b60; }
+dd:nth-of-type(14) { background: #656b60; }
+
