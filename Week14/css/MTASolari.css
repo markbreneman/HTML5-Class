@@ -74,7 +74,7 @@ ul li{
 
 .trains123{
 display:inline-block;
-background-color: red;
+background-color: #EE352E;
 border-radius: 25px;
 text-align: center;
 color:white;
@@ -87,7 +87,7 @@ font-size:42px;
 
 .trains456{
 display:inline-block;
-background-color: green;
+background-color: #00933C;
 border-radius: 25px;
 text-align: center;
 color:white;
@@ -99,16 +99,113 @@ font-size:42px;
 
 .trainsNQR{
 display:inline-block;
-background-color: yellow;
+background-color: #FCCC0A;
 border-radius: 25px;
 text-align: center;
-color:black;
+color:#333;
 height:50px;
 width:50px;
 font-family:Helvetica;
 font-size:42px;
 font-weight:400px;
 }
+
+.trainsBDFM{
+display:inline-block;
+background-color: ##FF6319;
+border-radius: 25px;
+text-align: center;
+color:#333;
+height:50px;
+width:50px;
+font-family:Helvetica;
+font-size:42px;
+font-weight:400px;
+}
+
+.trainsBDFM{
+display:inline-block;
+background-color: ##FF6319;
+border-radius: 25px;
+text-align: center;
+color:#333;
+height:50px;
+width:50px;
+font-family:Helvetica;
+font-size:42px;
+font-weight:400px;
+}
+
+.trainsG{
+display:inline-block;
+background-color: #6CBE45;
+border-radius: 25px;
+text-align: center;
+color:#333;
+height:50px;
+width:50px;
+font-family:Helvetica;
+font-size:42px;
+font-weight:400px;
+}
+
+
+
+.trainsJZ{
+display:inline-block;
+background-color: #996633;
+border-radius: 25px;
+text-align: center;
+color:#333;
+height:50px;
+width:50px;
+font-family:Helvetica;
+font-size:42px;
+font-weight:400px;
+}
+
+
+.trains7{
+display:inline-block;
+background-color: #B933AD;
+border-radius: 25px;
+text-align: center;
+color:#333;
+height:50px;
+width:50px;
+font-family:Helvetica;
+font-size:42px;
+font-weight:400px;
+}
+
+.trainsL{
+display:inline-block;
+background-color: #A7A9AC;
+border-radius: 25px;
+text-align: center;
+color:#333;
+height:50px;
+width:50px;
+font-family:Helvetica;
+font-size:42px;
+font-weight:400px;
+}
+
+.trainsS{
+display:inline-block;
+background-color:#808183;
+border-radius: 25px;
+text-align: center;
+color:#333;
+height:50px;
+width:50px;
+font-family:Helvetica;
+font-size:42px;
+font-weight:400px;
+}
+
+
+
 /*Train Status Log*/
 .status{
 }
