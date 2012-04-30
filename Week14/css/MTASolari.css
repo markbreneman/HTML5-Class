@@ -97,6 +97,19 @@ font-family:Helvetica;
 font-size:42px;
 }
 
+.trainsACE{
+display:inline-block;
+background-color: #2850AD;
+border-radius: 25px;
+text-align: center;
+color:white;
+height:50px;
+width:50px;
+font-family:Helvetica;
+font-size:42px;
+font-weight:400px;
+}
+
 .trainsNQR{
 display:inline-block;
 background-color: #FCCC0A;
