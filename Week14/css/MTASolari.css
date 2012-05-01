@@ -19,7 +19,7 @@ ul li{
 }
 
 .container{
-	width:1024px;
+	width:1050px;
 	margin: 0 auto;
 	
 }
@@ -68,7 +68,7 @@ ul li{
 /* Train Lines */
 
 .trains{
-	width:240px;
+	width:270px;
 	float:left;
 }
 
@@ -125,23 +125,10 @@ font-weight:400px;
 
 .trainsBDFM{
 display:inline-block;
-background-color: ##FF6319;
+background-color: #FF6319;
 border-radius: 25px;
 text-align: center;
-color:#333;
-height:50px;
-width:50px;
-font-family:Helvetica;
-font-size:42px;
-font-weight:400px;
-}
-
-.trainsBDFM{
-display:inline-block;
-background-color: ##FF6319;
-border-radius: 25px;
-text-align: center;
-color:#333;
+color:white;
 height:50px;
 width:50px;
 font-family:Helvetica;
@@ -154,7 +141,7 @@ display:inline-block;
 background-color: #6CBE45;
 border-radius: 25px;
 text-align: center;
-color:#333;
+color:white;
 height:50px;
 width:50px;
 font-family:Helvetica;
@@ -169,7 +156,7 @@ display:inline-block;
 background-color: #996633;
 border-radius: 25px;
 text-align: center;
-color:#333;
+color:white;
 height:50px;
 width:50px;
 font-family:Helvetica;
@@ -183,7 +170,7 @@ display:inline-block;
 background-color: #B933AD;
 border-radius: 25px;
 text-align: center;
-color:#333;
+color:white;
 height:50px;
 width:50px;
 font-family:Helvetica;
@@ -196,7 +183,7 @@ display:inline-block;
 background-color: #A7A9AC;
 border-radius: 25px;
 text-align: center;
-color:#333;
+color:white;
 height:50px;
 width:50px;
 font-family:Helvetica;
@@ -209,7 +196,7 @@ display:inline-block;
 background-color:#808183;
 border-radius: 25px;
 text-align: center;
-color:#333;
+color:white;
 height:50px;
 width:50px;
 font-family:Helvetica;
