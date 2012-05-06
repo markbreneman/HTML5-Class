@@ -19,7 +19,7 @@ ul li{
 }
 
 .container{
-	width:1050px;
+	width:1175px;
 	margin: 0 auto;
 	
 }
@@ -150,7 +150,6 @@ font-weight:400px;
 }
 
 
-
 .trainsJZ{
 display:inline-block;
 background-color: #996633;
@@ -208,6 +207,7 @@ font-weight:400px;
 
 /*Train Status Log*/
 .status{
+float:right;
 }
 
 .letter{
